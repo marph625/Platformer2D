@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cffc8b30-b33b-4bce-8471-997077364e1c" name="Changes" comment="Keyboard and Mouse Inputs working">
+    <list default="true" id="cffc8b30-b33b-4bce-8471-997077364e1c" name="Changes" comment="Rectangle can move via wasd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/KeyboardInputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/MouseInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/MouseInputs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,13 +79,22 @@
       <option name="project" value="LOCAL" />
       <updated>1714389467426</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rectangle can move via wasd">
+      <option name="closed" value="true" />
+      <created>1714390301876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714390301876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Keyboard and Mouse Inputs working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Keyboard and Mouse Inputs working" />
+    <MESSAGE value="Rectangle can move via wasd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rectangle can move via wasd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

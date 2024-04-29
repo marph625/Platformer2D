@@ -66,6 +66,6 @@ public class GamePanel extends JPanel {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawImage(img, 0, 0, null);
+        g.drawImage(img.getSubimage(0, 0, 30, 32), 0, 0, null);
     }
 }

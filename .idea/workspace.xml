@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cffc8b30-b33b-4bce-8471-997077364e1c" name="Changes" comment="Rectangle can move via wasd">
+    <list default="true" id="cffc8b30-b33b-4bce-8471-997077364e1c" name="Changes" comment="Rectangle can move by moving the mouse">
+      <change afterPath="$PROJECT_DIR$/res/NinjaFrog_Idle_(32x32).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platformer2D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Platformer2D.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputs/MouseInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputs/MouseInputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GameWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +42,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Student/Documents/Coding/Programmierung/Backend/Java/Platformer2D/res",
     "onboarding.tips.debug.path": "C:/Users/Student/Documents/Coding/Programmierung/Backend/Java/Platformer2D/src/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\Documents\Coding\Programmierung\Backend\Java\Platformer2D\res" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="inputs" />
     </key>
@@ -87,14 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714390301876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rectangle can move by moving the mouse">
+      <option name="closed" value="true" />
+      <created>1714390733637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714390733637</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Keyboard and Mouse Inputs working" />
     <MESSAGE value="Rectangle can move via wasd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rectangle can move via wasd" />
+    <MESSAGE value="Rectangle can move by moving the mouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rectangle can move by moving the mouse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

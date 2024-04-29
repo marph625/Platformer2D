@@ -1,7 +1,7 @@
 package main;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JPanel;
+import java.awt.Graphics;
 
 public class GamePanel extends JPanel {
     public GamePanel() {

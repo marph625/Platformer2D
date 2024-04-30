@@ -17,8 +17,7 @@ public class GamePanel extends JPanel {
     private MouseInputs mouseInputs;
     private float xDelta = 100, yDelta = 100;
     private BufferedImage img;
-    private BufferedImage[] idleAni;
-
+    private BufferedImage[][] animations;
     // The lower the aniSpeed the faster the animation
     private int aniTick, aniIndex, aniSpeed = 10;
 
@@ -35,16 +34,18 @@ public class GamePanel extends JPanel {
     }
 
     private void loadAnimations() {
-        idleAni = new BufferedImage[11];
+        animations = new BufferedImage[7][12];
 
-        for (int i = 0; i < idleAni.length; i++) {
-            idleAni[i] = img.getSubimage(i*32, 0, 32, 32);
+        for (int j = 0; j < animations.length; j++) {
+            for (int i = 0; i < animations[j].length; i++) {
+                animations[j][i] = img.getSubimage(i*32, j*32, 32, 32);
+            }
         }
     }
 
     private void importImg() {
 
-        InputStream is = getClass().getResourceAsStream("/NinjaFrog_Idle_(32x32).png");
+        InputStream is = getClass().getResourceAsStream("/spritesheet_ninjafrog_4.png");
 
         try {
             img = ImageIO.read(is);
@@ -68,20 +69,15 @@ public class GamePanel extends JPanel {
 
     public void changeXDelta(int value) {
         this.xDelta += value;
-        // repaint() is needed to make the positional changes visible
-        // repaints the gamePanel with the new x and y values
-
     }
 
     public void changeYDelta(int value) {
         this.yDelta += value;
-
     }
 
     public void setRectPos(int x, int y) {
         this.xDelta = x;
         this.yDelta = y;
-
     }
 
     private void updateAnimationTick() {
@@ -89,7 +85,7 @@ public class GamePanel extends JPanel {
         if (aniTick >= aniSpeed) {
             aniTick = 0;
             aniIndex++;
-            if (aniIndex >= idleAni.length) {
+            if (aniIndex >= 12) {
                 aniIndex = 0;
             }
         }
@@ -100,7 +96,6 @@ public class GamePanel extends JPanel {
 
         updateAnimationTick();
 
-        g.drawImage(idleAni[aniIndex], (int)xDelta, (int)yDelta, 60, 60, null);
+        g.drawImage(animations[0][aniIndex], (int)xDelta, (int)yDelta, 60, 60, null);
     }
-
 }

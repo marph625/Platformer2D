@@ -23,6 +23,5 @@ public class GameWindow {
 
         // Makes the window visible, needs to be at the bottom!
         jframe.setVisible(true);
-
     }
 }

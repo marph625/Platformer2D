@@ -27,6 +27,7 @@ public class KeyboardInputs implements KeyListener {
                 break;
         }
     }
+
     @Override
     public void keyPressed(KeyEvent e) {
         switch(e.getKeyCode()) {

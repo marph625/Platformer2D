@@ -49,7 +49,6 @@ public class GamePanel extends JPanel {
     }
 
     private void importImg() {
-
         InputStream is = getClass().getResourceAsStream("/spritesheet_ninjafrog_4.png");
 
         try {
@@ -83,6 +82,7 @@ public class GamePanel extends JPanel {
 
     private void updateAnimationTick() {
         aniTick++;
+
         if (aniTick >= aniSpeed) {
             aniTick = 0;
             aniIndex++;
@@ -129,6 +129,4 @@ public class GamePanel extends JPanel {
         super.paintComponent(g);
         g.drawImage(animations[playerAction][aniIndex], (int)xDelta, (int)yDelta, 60, 60, null);
     }
-
-
 }

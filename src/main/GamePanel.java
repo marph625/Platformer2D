@@ -18,7 +18,9 @@ public class GamePanel extends JPanel {
     private float xDelta = 100, yDelta = 100;
     private BufferedImage img;
     private BufferedImage[] idleAni;
-    private int aniTick, aniIndex, aniSpeed = 30;
+
+    // The lower the aniSpeed the faster the animation
+    private int aniTick, aniIndex, aniSpeed = 10;
 
     public GamePanel() {
         mouseInputs = new MouseInputs(this);
